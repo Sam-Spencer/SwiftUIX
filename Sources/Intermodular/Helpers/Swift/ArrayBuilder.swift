@@ -4,7 +4,7 @@
 
 import Swift
 
-@_functionBuilder
+@resultBuilder
 public class ArrayBuilder<Element> {
     @inlinable
     public static func buildBlock() -> [Element] {
